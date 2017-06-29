@@ -1,0 +1,105 @@
+/*div {
+  border: 1px white solid;
+}*/
+
+h1, h2 {
+  margin: 15px 0;
+}
+
+.navbar {
+  padding: 0 100px;
+}
+
+.nav li {
+  padding: 0 30px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#avatar {
+  border-radius: 50%;
+  padding: 70px 0 30px 0;
+}
+
+body {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.section {
+  min-height: 800px;
+  opacity: 0.8;
+  padding: 20px 0;
+}
+
+hr {
+  border-top: 3px double #8c8b8b;
+}
+
+.textbox {
+  background-color: #EEE;
+  opacity: 0.9;
+  padding: 20px;
+  width: 400px;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+#about {
+  background-image: url("https://c1.staticflickr.com/8/7680/16581431283_3c067cb5bf_z.jpg");
+  background-size: cover;
+}
+
+#portfolio {
+  background-image: url("https://c1.staticflickr.com/4/3913/14499435384_9e5f72ac8e_o.jpg");
+  background-size: cover;
+  padding: 20px 40px;
+}
+
+#contact {
+  background-image: url("https://c1.staticflickr.com/8/7343/15957622964_38300420d1_o.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+  min-height: 500px;
+}
+
+.port-img {
+  max-height: 250px;
+  max-width: 400px;
+  position: relative;
+  box-shadow: 2px 2px 8px #333;
+  margin: 20px auto;
+}
+
+.port-img:hover .overlay {
+  opacity: 0.7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #222;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+i {
+  margin: 25px;
+}
